@@ -1,6 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import Main from "./components/layouts/Main";
 import HomePage from "./pages/HomePage";
+import LaslesMaster from "./projects/lasles-master/LaslesMaster";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
             }
           ></Route>
         </Route>
+        <Route path="/index" element={<LaslesMaster></LaslesMaster>}></Route>
       </Routes>
     </>
   );
