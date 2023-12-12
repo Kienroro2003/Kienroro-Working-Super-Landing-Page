@@ -2,6 +2,7 @@ import { Route, Routes } from "react-router-dom";
 import Main from "./components/layouts/Main";
 import HomePage from "./pages/HomePage";
 import LaslesMaster from "./projects/lasles-master/LaslesMaster";
+import Jalan from "./projects/jalan/Jalan";
 
 function App() {
   return (
@@ -17,7 +18,11 @@ function App() {
             }
           ></Route>
         </Route>
-        <Route path="/index" element={<LaslesMaster></LaslesMaster>}></Route>
+        <Route
+          path="/lasles-master"
+          element={<LaslesMaster></LaslesMaster>}
+        ></Route>
+        <Route path="/jalan" element={<Jalan></Jalan>}></Route>
       </Routes>
     </>
   );
