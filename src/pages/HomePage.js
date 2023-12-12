@@ -1,7 +1,10 @@
+// import { FileList } from "filelist";
+// import { pathExists } from "fs-extra";
 import React, { Fragment } from "react";
 import { Link } from "react-router-dom";
 
 const HomePage = (props) => {
+  // console.log(pathExists);
   return (
     <Fragment>
       <section className={`${props.className}`}>
@@ -33,7 +36,7 @@ const ItemLandingPage = () => {
             className="w-full h-[250px] object-cover"
           />
         </Link>
-        <div className="flex flex-col gap-3 px-7  py-7">
+        <div className="flex flex-col gap-3 px-7 py-7">
           <Link>
             <h2 className="text-2xl font-bold text-black">
               [Quan trọng] – Hướng dẫn mua và thanh toán khóa học Evondev mới

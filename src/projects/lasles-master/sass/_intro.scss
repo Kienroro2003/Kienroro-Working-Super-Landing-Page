@@ -1,4 +1,4 @@
-.intro {
+.lasles-master .intro {
   margin-bottom: 95px;
   &-container {
     padding: 37px;
@@ -16,16 +16,16 @@
       border-right: 2px solid #eeeff2;
     }
   }
-  &-title{
+  &-title {
     font-size: 25px;
     font-weight: 700;
     margin-bottom: 5px;
-    line-height: calc(30/25);
-}
-&-name{
+    line-height: calc(30 / 25);
+  }
+  &-name {
     font-size: 20px;
-      line-height: calc(30/20);
+    line-height: calc(30 / 20);
     font-weight: 400;
-    color:#4F5665;
+    color: #4f5665;
   }
 }

@@ -3,8 +3,10 @@ import Main from "./components/layouts/Main";
 import HomePage from "./pages/HomePage";
 import LaslesMaster from "./projects/lasles-master/LaslesMaster";
 import Jalan from "./projects/jalan/Jalan";
+import path from "path";
 
 function App() {
+  console.log(path);
   return (
     <>
       <Routes>

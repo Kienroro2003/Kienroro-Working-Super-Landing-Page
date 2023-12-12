@@ -1,4 +1,4 @@
-.header {
+.lasles-master .header {
   padding-top: 50px;
   padding-bottom: 90px;
   &-container {
@@ -11,6 +11,7 @@
     display: flex;
     gap: 0 30px;
     align-items: center;
+    font-size: 2.5rem;
   }
   &-signin {
     color: $heading-color;

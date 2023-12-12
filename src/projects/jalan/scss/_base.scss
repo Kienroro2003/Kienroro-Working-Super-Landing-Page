@@ -1,8 +1,8 @@
-// html {
-//   box-sizing: border-box;
-//   font-size: 62.5%;
-//   // 1rem = 10px
-// }
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  // 1rem = 10px
+}
 * {
   margin: 0;
   padding: 0;
@@ -12,7 +12,7 @@
 *:after {
   box-sizing: border-box;
 }
-input,
+.jalan input,
 textarea,
 select,
 button {
@@ -20,24 +20,24 @@ button {
   font-family: "Poppins", sans-serif;
   font-size: 14px;
 }
-input {
+.jalan input {
   line-height: normal;
 }
-label,
+.jalan label,
 button {
   cursor: pointer;
 }
-a {
+.jalan a {
   text-decoration: none;
 }
-img {
+.jalan img {
   display: block;
   max-width: 100%;
 }
-strong {
+.jalan strong {
   font-weight: 600;
 }
-body {
+.jalan .wrapper {
   font-family: "Poppins", sans-serif;
   font-size: 14px;
   line-height: 1;
@@ -50,23 +50,23 @@ body {
     padding: 2rem;
   }
 }
-.wrapper {
+.jalan .wrapper {
   max-width: 1920px;
   margin: 0 auto;
 }
-.container {
+.jalan .container {
   max-width: 157.5rem;
   margin-left: auto;
   margin-right: auto;
   padding: 0 15px;
 }
-.heading {
+.jalan .heading {
   font-weight: bold;
   line-height: 1.5;
   font-size: 6rem;
   text-transform: capitalize;
 }
-.text {
+.jalan .text {
   font-size: 2rem;
   font-weight: 300;
   line-height: 1.75;
@@ -75,13 +75,13 @@ body {
     font-size: 12px;
   }
 }
-.text--primary {
+.jalan .text--primary {
   color: $primary;
 }
-.text--secondary {
+.jalan .text--secondary {
   color: $secondary;
 }
-.btn {
+.jalan .btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -99,7 +99,7 @@ body {
     background-color: $primary;
   }
 }
-.layout {
+.jalan .layout {
   display: grid;
   grid-template-columns: 1.2fr 1fr;
   grid-gap: 0 18.6rem;
@@ -112,10 +112,10 @@ body {
     grid-gap: 5rem 0;
   }
 }
-.underline {
+.jalan .underline {
   text-decoration: underline;
 }
-.play {
+.jalan .play {
   position: absolute;
   top: 50%;
   left: 50%;
