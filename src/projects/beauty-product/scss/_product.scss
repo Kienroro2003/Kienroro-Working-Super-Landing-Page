@@ -1,0 +1,11 @@
+.product {
+  &__heading {
+    margin: 100px auto 0;
+    width: 405px;
+    color: $text-primary;
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 108%;
+  }
+}
