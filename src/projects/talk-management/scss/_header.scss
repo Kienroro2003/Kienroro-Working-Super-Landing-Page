@@ -1,0 +1,75 @@
+header {
+  min-height: 100vh;
+}
+
+.nav__link {
+  color: $text-secondary;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 150%;
+  padding: 5px 18px;
+  &.active {
+    color: $text-primary;
+    position: relative;
+    &::before {
+      content: "";
+      position: absolute;
+      left: 18px;
+      bottom: 0;
+      transition: 0 100%;
+      width: 25px;
+      height: 1px;
+      background: #69ea5c;
+    }
+  }
+}
+
+.sign-in {
+  background: $linear-gradient;
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text;
+  padding: 8px 27px;
+  border: 1px solid #272633;
+  border-radius: 8px;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.header {
+  &__heading {
+    margin: 150px auto 0;
+    text-align: center;
+    color: $text-primary;
+    width: 783px;
+    font-size: 6rem;
+    font-weight: 700;
+    line-height: 116.667%;
+    &--highlight {
+      background: $linear-gradient;
+      background-clip: text;
+      color: transparent;
+      -webkit-background-clip: text;
+      border: 1px dashed $text-primary;
+    }
+  }
+  &__desc {
+    color: $text-secondary;
+    width: 380px;
+    margin: 34px auto 0;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 162.5%;
+  }
+  &__btn {
+    color: $text-primary;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 162.5%;
+  }
+  &__highlight {
+    background: $linear-gradient;
+  }
+}
