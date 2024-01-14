@@ -1,0 +1,33 @@
+.shop_all_B {
+  position: relative;
+  margin: 124px 110px 0px 110px;
+}
+.shop_all_B .title {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 405px;
+  color: #141313;
+  font-family: Serif;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 54px; /* 108% */
+}
+.shop_all_B .list_brand {
+  margin-top: 159px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  display: flex;
+}
+.shop_all_B .list_brand .item_brand {
+  margin: 0px 32px;
+  width: 268px;
+  height: 184px;
+  flex-shrink: 0;
+}
+.shop_all_B .list_brand .item_brand img {
+  background-color: #000;
+}
