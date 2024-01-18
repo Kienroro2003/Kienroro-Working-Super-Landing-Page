@@ -1,6 +1,8 @@
 .shop_all_B {
   position: relative;
   margin: 124px 110px 0px 110px;
+
+  height: auto;
 }
 .shop_all_B .title {
   position: absolute;
@@ -24,10 +26,38 @@
 }
 .shop_all_B .list_brand .item_brand {
   margin: 0px 32px;
+
+  flex-shrink: 0;
+  border: 1px solid #141313;
+  background: #fefaf0;
+}
+.list_brand .item_brand .images {
+  position: relative;
+  background: #ffe484;
   width: 268px;
   height: 184px;
   flex-shrink: 0;
 }
-.shop_all_B .list_brand .item_brand img {
-  background-color: #000;
+.list_brand .item_brand .images img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.list_brand .item_brand .name {
+  margin: 20px 22px 20px 16px;
+}
+.list_brand .item_brand .name p {
+  color: #141313;
+  font-family: Serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 120% */
+}
+.shop_all_B .line {
+  background-color: #141313;
+  opacity: 0.8;
+  width: 269px;
+  height: 2px;
 }
